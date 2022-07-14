@@ -8,7 +8,6 @@
 function linearc_load_styles_and_scripts($hook)
 {
 
-    wp_enqueue_style( 'style', get_theme_file_uri() .'/assets/css/output.css', false ,'1.1','all');
 
     //Include Child theme
     $parenthandle = 'parent-style'; // This is 'twentyfifteen-style' for the Twenty Fifteen theme.
@@ -21,6 +20,9 @@ function linearc_load_styles_and_scripts($hook)
         array( $parenthandle ),
         $theme->get('Version') // this only works if you have Version in the style header
     );
+
+    wp_enqueue_style( 'style', get_theme_file_uri() .'/assets/css/output.css', false ,'1.1','all');
+
 }
 
 function linearc_load_admin_styles_and_scripts($hook)
