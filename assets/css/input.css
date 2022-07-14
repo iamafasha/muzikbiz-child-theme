@@ -46,3 +46,8 @@
   background: url('https://pbs.twimg.com/media/FXAZ1b4XwAYwl9K?format=jpg&name=large');
   background-size: cover;
 }
+
+
+.category-list{
+  padding-left:unset !important;
+}

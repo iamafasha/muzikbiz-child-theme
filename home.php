@@ -9,7 +9,7 @@
     </div>
 
     <div class = "categories-picker d-flex min-h-7/10 justify-items-center pt-10 px-6" >
-        <ul class="grid grid-cols-2 gap-4">
+        <ul class="grid grid-cols-2 gap-4 category-list">
             <li class="border-2   animate-pulse rotate-in-center overflow-hidden rounded-lg drop-shadow-md min-h-card flex justify-start items-end news relative">
                 <div class="absolute w-full h-full from-slate-900 to-transparent rounded-xl " ></div>
                 <h5 class="text-2xl p-3 z-10 text-gray-200 font-bold">News</h5>
