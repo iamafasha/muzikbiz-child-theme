@@ -1,0 +1,48 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Splash&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.rotate-in-center {
+	animation: rotate-in-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: rotate-in-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes rotate-in-center {
+    0% {
+      opacity: 0;
+}
+    100% {
+      opacity: 1;
+    }
+}
+
+
+.news{
+  background: url('https://cdn.pixabay.com/photo/2014/01/23/07/08/radio-250245_960_720.jpg');
+  background-size: cover;
+}
+
+.jobs{
+  background: url('https://cdn.pixabay.com/photo/2015/12/21/15/29/microphone-1102739_960_720.jpg');
+  background-size: cover;
+}
+
+.pod-casts{
+  background: url('https://cdn.pixabay.com/photo/2019/06/01/21/01/radio-4245029_960_720.jpg');
+  background-size: cover;
+}
+.events{
+  background: url('https://pbs.twimg.com/media/FXBEzgtXkAAf7uy?format=jpg&name=large');
+  background-size: cover;
+}
+
+.surveys{
+  background: url('https://cdn.pixabay.com/photo/2012/03/01/01/15/surveyor-20092_960_720.jpg');
+  background-size: cover;
+}
+.trends{
+  background: url('https://pbs.twimg.com/media/FXAZ1b4XwAYwl9K?format=jpg&name=large');
+  background-size: cover;
+}

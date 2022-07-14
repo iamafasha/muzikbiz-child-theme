@@ -1,0 +1,23 @@
+{
+  "name": "muzik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamafasha/muzikbiz-child-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamafasha/muzikbiz-child-theme/issues"
+  },
+  "homepage": "https://github.com/iamafasha/muzikbiz-child-theme#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
