@@ -47,7 +47,7 @@
 
     <div class="mt-7 p-1 min-h-full">
         <div class="w-full justify-center min-h-card  flex rounded-lg">
-            <div class="blog featured-blog">
+            <!-- <div class="blog featured-blog">
                 <div class="relative">
                     <img src="https://www.androidauthority.com/wp-content/uploads/2022/07/nothing-ear-1-black-white-scaled-792w-446h.jpg" /> 
                     <div class="absolute left-0 right-0 top-0 bottom-0 flex items-end flex-col p-2 justify-end">
@@ -59,7 +59,7 @@
                 <p class="p-1">When comfort is at stake, spec sheets don't matter.</p>
                 <a class="p-1 mb-2 block text-gray-500 font-bold text-lg">Isakiye Afasha</a>
                 <hr />
-            </div>
+            </div> -->
         </div>
         
     </div>
