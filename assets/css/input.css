@@ -51,3 +51,9 @@
 .category-list{
   padding-left:unset !important;
 }
+
+
+.site-main > * {
+	margin-top: unset !important;
+	margin-bottom: unset !important;
+}
