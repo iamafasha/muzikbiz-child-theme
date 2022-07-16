@@ -13,7 +13,7 @@ $wrapper_classes .= ( true === get_theme_mod( 'display_title_and_tagline', true 
 $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 ?>
 
-<header id="masthead" class="<?php echo esc_attr( $wrapper_classes ); ?> flex justify-between p-7">
+<header id="masthead" class="p-7">
 	<?php get_template_part( 'template-parts/header/site-branding' ); ?>
 	<?php get_template_part( 'template-parts/header/site-nav' ); ?>
 

@@ -13,4 +13,4 @@ $show_title   = ( true === get_theme_mod( 'display_title_and_tagline', true ) );
 $header_class = $show_title ? 'site-title' : 'screen-reader-text';
 
 ?>
-<p class=" font-afasha text-4xl font-bold text-sky-700">MuzikBiz</p>
+<a  href="<?php echo esc_url( home_url( '/' ) ); ?>" class=" font-afasha text-4xl font-bold text-sky-700">MuzikBiz</a>
