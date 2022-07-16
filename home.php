@@ -1,8 +1,5 @@
 <?php get_header(); ?>
 
-    <header class="flex justify-center p-7">
-        <p class=" font-afasha text-4xl font-bold text-sky-700">MuzikBiz</p>
-    </header>
 
     <div class="search flex justify-items-center px-6 rounded">
         <input class="border-2 box-border w-full rounded outline-none p-2" placeholder="Search" />
